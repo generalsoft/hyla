@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +27,7 @@
             width: 100%;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
         nav {
@@ -62,7 +63,7 @@
         }
 
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23e8a87c" width="1200" height="600"/><path fill="%23d89968" opacity="0.3" d="M0,300 Q300,200 600,300 T1200,300 L1200,600 L0,600 Z"/></svg>');
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23e8a87c" width="1200" height="600"/><path fill="%23d89968" opacity="0.3" d="M0,300 Q300,200 600,300 T1200,300 L1200,600 L0,600 Z"/></svg>');
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -77,14 +78,14 @@
         .hero-content h1 {
             font-size: 4rem;
             margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             animation: fadeInUp 1s ease-out;
         }
 
         .hero-content p {
             font-size: 1.5rem;
             margin-bottom: 2rem;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
             animation: fadeInUp 1s ease-out 0.2s backwards;
         }
 
@@ -105,7 +106,7 @@
 
         .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
         @keyframes fadeInUp {
@@ -113,6 +114,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -147,7 +149,7 @@
             padding: 2rem;
             border-radius: 15px;
             text-align: center;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s;
         }
 
@@ -175,13 +177,13 @@
             background: white;
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: all 0.3s;
         }
 
         .product-card:hover {
             transform: scale(1.05);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
         }
 
         .product-image {
@@ -240,28 +242,31 @@
             gap: 0.5rem;
         }
 
+        a.generalsoft-link:link {
+            color: rgb(255, 238, 0);
+        }
+
+        a.generalsoft-link:visited {
+            color: rgb(139, 225, 139);
+        }
+
         @media (max-width: 768px) {
             .hero-content h1 {
                 font-size: 2.5rem;
             }
-            
+
             .hero-content p {
                 font-size: 1.2rem;
             }
-            
+
             .nav-links {
                 gap: 1rem;
                 flex-wrap: wrap;
             }
-            a.generalsoft-link:link {
-                color: rgb(255, 238, 0); 
-            } 
-            a.generalsoft-link:visited {
-                color: rgb(139, 225, 139); 
-            }
         }
     </style>
 </head>
+
 <body>
     <header>
         <nav>
@@ -290,12 +295,14 @@
             <div class="benefit-card">
                 <div class="benefit-icon">🏥</div>
                 <h3>Medicinal</h3>
-                <p>Rich in 84 essential minerals that support respiratory health, improve circulation, and promote natural healing</p>
+                <p>Rich in 84 essential minerals that support respiratory health, improve circulation, and promote
+                    natural healing</p>
             </div>
             <div class="benefit-card">
                 <div class="benefit-icon">🧘</div>
                 <h3>Spiritual</h3>
-                <p>Create sacred spaces with natural ionization that purifies energy and enhances meditation practices</p>
+                <p>Create sacred spaces with natural ionization that purifies energy and enhances meditation practices
+                </p>
             </div>
             <div class="benefit-card">
                 <div class="benefit-icon">💪</div>
@@ -361,7 +368,10 @@
     <section id="about" class="about section">
         <h2 class="section-title">About Us</h2>
         <p style="max-width: 800px; margin: 0 auto; font-size: 1.2rem; line-height: 1.8;">
-            At Hyla.life, we are dedicated to bringing you the finest Himalayan salt products sourced directly from ancient salt mines. Our mission is to help you harness the natural healing power of these pristine crystals for your medicinal, spiritual, health, and aesthetic needs. Every product we offer is carefully selected to ensure the highest quality and purity.
+            At Hyla.life, we are dedicated to bringing you the finest Himalayan salt products sourced directly from
+            ancient salt mines. Our mission is to help you harness the natural healing power of these pristine crystals
+            for your medicinal, spiritual, health, and aesthetic needs. Every product we offer is carefully selected to
+            ensure the highest quality and purity.
         </p>
         <p class="company-name">Deccan Global General Trading FZE</p>
     </section>
@@ -385,9 +395,11 @@
     </section>
 
     <footer>
-        <p>&copy; 2026 Hyla.life - Deccan Global General Trading FZE.<br/> All rights reserved.</p>
-        <p><a href="https://generalsoft.ae" target="_blank" class="generalsoft-link">Designed by Generalsoft FZ-LLC.</a>
+        <p>&copy; 2026 Hyla.life - Deccan Global General Trading FZE.</p>
+        <p>All rights reserved.</p>
         <p style="margin-top: 1rem; opacity: 0.8;">Pure Himalayan Salt for Mind, Body & Soul</p>
+        <p style="text-align: right; font-size: smaller;"><a href="https://generalsoft.ae" target="_blank" class="generalsoft-link">Designed by Generalsoft FZ-LLC.</a>
+        </p>
     </footer>
 
     <script>
@@ -405,4 +417,5 @@
         });
     </script>
 </body>
+
 </html>
